@@ -9,6 +9,9 @@
   <Folder Name="/03 Classes et propriétés/">
     <Project Path="DemoClasses/DemoClasses.csproj" />
   </Folder>
+  <Folder Name="/GestionBanque/">
+    <Project Path="GestionBanque01/GestionBanque01.csproj" />
+  </Folder>
   <Folder Name="/Solution Items/">
     <File Path="readme.md" />
   </Folder>
