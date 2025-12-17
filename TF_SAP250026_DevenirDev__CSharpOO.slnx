@@ -1,4 +1,11 @@
 <Solution>
+  <Folder Name="/01 Namespaces/">
+    <Project Path="DemoNamespaces/DemoNamespaces.csproj" />
+  </Folder>
+  <Folder Name="/02 Encapsulation/">
+    <Project Path="DemoEncapsulation/DemoEncapsulation.csproj" />
+    <Project Path="DemoEncapsulationDependance/DemoEncapsulationDependance.csproj" />
+  </Folder>
   <Folder Name="/Solution Items/">
     <File Path="readme.md" />
   </Folder>
