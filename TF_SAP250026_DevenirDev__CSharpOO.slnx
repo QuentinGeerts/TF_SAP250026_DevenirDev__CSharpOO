@@ -6,6 +6,9 @@
     <Project Path="DemoEncapsulation/DemoEncapsulation.csproj" />
     <Project Path="DemoEncapsulationDependance/DemoEncapsulationDependance.csproj" />
   </Folder>
+  <Folder Name="/03 Classes et propriétés/">
+    <Project Path="DemoClasses/DemoClasses.csproj" />
+  </Folder>
   <Folder Name="/Solution Items/">
     <File Path="readme.md" />
   </Folder>

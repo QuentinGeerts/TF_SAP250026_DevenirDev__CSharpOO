@@ -1,7 +1,8 @@
 ﻿using DemoEncapsulation.Models;
 using DemoEncapsulationDependance.Models;
 
-Etudiant etudiant = new Etudiant();
+Etudiant etudiant1 = new Etudiant();
+Etudiant etudiant2 = new Etudiant();
 
 Console.WriteLine($"{etudiant.prenom}");
 
