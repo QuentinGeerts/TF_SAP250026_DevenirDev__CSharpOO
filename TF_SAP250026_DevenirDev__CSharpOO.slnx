@@ -14,6 +14,7 @@
   </Folder>
   <Folder Name="/GestionBanque/">
     <Project Path="GestionBanque01/GestionBanque01.csproj" />
+    <Project Path="GestionBanque02/GestionBanque02.csproj" Id="d6ef95c1-e2f6-42c9-acb7-216d7602c5a0" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path="readme.md" />
