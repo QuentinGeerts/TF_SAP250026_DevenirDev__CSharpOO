@@ -9,6 +9,9 @@
   <Folder Name="/03 Classes et propriétés/">
     <Project Path="DemoClasses/DemoClasses.csproj" />
   </Folder>
+  <Folder Name="/04 Indexeurs/">
+    <Project Path="DemoIndexeurs/DemoIndexeurs.csproj" Id="72746c49-88d1-43f6-9810-597fec08990a" />
+  </Folder>
   <Folder Name="/GestionBanque/">
     <Project Path="GestionBanque01/GestionBanque01.csproj" />
   </Folder>

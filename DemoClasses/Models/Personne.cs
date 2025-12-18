@@ -15,6 +15,17 @@ internal class Personne
     // Mais modifiable qu'à la création de l'objet
     public int MyProperty { get; init; }
 
+    //public int MyProperty1
+    //{
+    //    get;
+
+    //    set
+    //    {
+    //        if (value < 0) return;
+    //        MyProperty1 = value; // Attention récursivité
+    //    }
+    //}
+
     // Pas besoin de vérification => prop
     // Besoin de vérification => propfull
 
