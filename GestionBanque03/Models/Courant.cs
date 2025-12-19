@@ -35,4 +35,13 @@ public class Courant
         Console.WriteLine($"Retrait de {montant} euros. [Solde restant: {Solde}]");
     }
 
+
+    //  Surcharge d'opérateurs
+    public static double operator +(double somme, Courant courant)
+    {
+        //if (courant.Solde >= 0) return courant.Solde + somme;
+        //else return 0;
+
+        return courant.Solde >= 0 ? courant.Solde + somme : 0;
+    }
 }
