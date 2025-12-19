@@ -22,6 +22,8 @@
     <Project Path="GestionBanque01/GestionBanque01.csproj" />
     <Project Path="GestionBanque02/GestionBanque02.csproj" Id="d6ef95c1-e2f6-42c9-acb7-216d7602c5a0" />
     <Project Path="GestionBanque03/GestionBanque03.csproj" Id="04a61e0a-1fbe-44e7-9d2e-dff2c8a8e8ac" />
+    <Project Path="GestionBanque04/GestionBanque04.csproj" Id="0fac0a4e-426f-4a8f-bcbc-192c1265475f" />
+    <Project Path="GestionBanque05/GestionBanque05.csproj" Id="f1a99dc4-59d0-40b1-afdd-a0328d0e2b51" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path="readme.md" />
