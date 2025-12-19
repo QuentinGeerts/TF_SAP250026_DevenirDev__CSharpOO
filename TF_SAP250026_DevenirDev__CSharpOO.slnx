@@ -15,6 +15,9 @@
   <Folder Name="/05 Surcharge Opérateurs/">
     <Project Path="DemoSurchargeOperateurs/DemoSurchargeOperateurs.csproj" Id="24ce5595-f01c-422a-8bfb-76db7c57e7d9" />
   </Folder>
+  <Folder Name="/06 Heritage Polymorphisme/">
+    <Project Path="DemoHeritagePolymorphisme/DemoHeritagePolymorphisme.csproj" Id="27b8c393-9f0a-4c35-9fcd-0e15f4c6ff41" />
+  </Folder>
   <Folder Name="/GestionBanque/">
     <Project Path="GestionBanque01/GestionBanque01.csproj" />
     <Project Path="GestionBanque02/GestionBanque02.csproj" Id="d6ef95c1-e2f6-42c9-acb7-216d7602c5a0" />
