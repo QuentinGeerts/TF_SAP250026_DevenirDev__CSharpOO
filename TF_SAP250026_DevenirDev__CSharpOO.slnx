@@ -18,6 +18,12 @@
   <Folder Name="/06 Heritage Polymorphisme/">
     <Project Path="DemoHeritagePolymorphisme/DemoHeritagePolymorphisme.csproj" Id="27b8c393-9f0a-4c35-9fcd-0e15f4c6ff41" />
   </Folder>
+  <Folder Name="/11 Exceptions/">
+    <Project Path="DemoExceptions/DemoExceptions.csproj" Id="09fed38a-ec64-4e9f-8bc5-b9dc7a021c66" />
+  </Folder>
+  <Folder Name="/12 Delegués/">
+    <Project Path="DemoDelegues/DemoDelegues.csproj" Id="391ebf02-2d25-4d32-9611-61a1c879166f" />
+  </Folder>
   <Folder Name="/GestionBanque/">
     <Project Path="GestionBanque01/GestionBanque01.csproj" />
     <Project Path="GestionBanque02/GestionBanque02.csproj" Id="d6ef95c1-e2f6-42c9-acb7-216d7602c5a0" />
