@@ -47,4 +47,18 @@ public static class FilterToolBox
 
         return p;
     }
+
+    public static List<Personne> Filter2(List<Personne> personnes, Predicate<Personne> compareFn)
+    {
+        if (compareFn == null) throw new ArgumentNullException();
+
+        List<Personne> p = new List<Personne>();
+
+        foreach (Personne personne in personnes)
+        {
+            if (compareFn(personne)) p.Add(personne);
+        }
+
+        return p;
+    }
 }

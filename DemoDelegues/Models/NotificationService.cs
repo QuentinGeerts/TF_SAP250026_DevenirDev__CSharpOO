@@ -7,6 +7,7 @@ public delegate void NotificationDelegate(string message);
 public class NotificationService
 {
     public NotificationDelegate? _notification;
+    public Action<string> _notificationAction;
 
     public NotificationService()
     {

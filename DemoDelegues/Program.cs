@@ -133,3 +133,30 @@ foreach (var p in caroEtMicha)
 {
     Console.WriteLine($" - {p.Nom} {p.Prenom}");
 }
+
+
+// 6.  Délégués génériques
+
+// - Action
+//   → ne retourne rien
+// - Func
+//   → retourne une valeur
+// - Predicate
+//   → retourne un booléen
+
+
+AfficherMessageDelegate messageDelegate2;
+Action<string> messageDelegate3 = SystemMessage.EnvoyerParEmail;
+
+Func<float, float, double> func = OperationsMath.Addition;
+Console.WriteLine($"Func: {func?.Invoke(5F, 3F)}");
+
+func = OperationsMath.Soustraction;
+Console.WriteLine($"Func: {func?.Invoke(5F, 3F)}");
+
+func = OperationsMath.Multiplication;
+Console.WriteLine($"Func: {func?.Invoke(5F, 3F)}");
+
+func = (float a, float b) => a / b;
+Console.WriteLine($"Func: {func?.Invoke(5F, 3F)}");
+
