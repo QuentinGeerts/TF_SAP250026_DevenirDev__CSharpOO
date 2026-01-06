@@ -27,6 +27,9 @@
   <Folder Name="/13 Événements/">
     <Project Path="DemoEvents/DemoEvents.csproj" Id="3864791e-c783-42e3-9ec6-bc99af356930" />
   </Folder>
+  <Folder Name="/14 Généricité/">
+    <Project Path="DemoGenerique/DemoGenerique.csproj" Id="45f0da7c-394e-4a88-9868-f03313eb08db" />
+  </Folder>
   <Folder Name="/ExerciceCarwash/">
     <Project Path="ExerciceCarwash/ExerciceCarwash.csproj" Id="73ca1d17-c334-4ec5-ac55-0144e6ce2fe1" />
     <Project Path="ExerciceCarwashV2/ExerciceCarwashV2.csproj" Id="2599af05-a587-4706-a5c5-24aac4a94b60" />

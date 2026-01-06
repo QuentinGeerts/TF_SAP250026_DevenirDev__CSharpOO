@@ -2,6 +2,7 @@
 
 // Création du délégué pour l'événement
 public delegate void ThresholdReached(int counter, int threshold);
+public delegate string ThresholdReachedWithReturn(int count, float threshold);
 
 public class Counter
 {
@@ -10,6 +11,8 @@ public class Counter
 
     // Création de l'événement à déclencher lorsque la valeur aura atteint le seuil
     public event ThresholdReached ThresholdReached;
+    public event Action<int, int> ThresholdReachedAction;
+    public event Func<int, float, string> ThresholdReachedFunc;
 
     public Counter(int threshold)
     {
