@@ -18,6 +18,22 @@
   <Folder Name="/06 Heritage Polymorphisme/">
     <Project Path="DemoHeritagePolymorphisme/DemoHeritagePolymorphisme.csproj" Id="27b8c393-9f0a-4c35-9fcd-0e15f4c6ff41" />
   </Folder>
+  <Folder Name="/11 Exceptions/">
+    <Project Path="DemoExceptions/DemoExceptions.csproj" Id="09fed38a-ec64-4e9f-8bc5-b9dc7a021c66" />
+  </Folder>
+  <Folder Name="/12 Delegués/">
+    <Project Path="DemoDelegues/DemoDelegues.csproj" Id="391ebf02-2d25-4d32-9611-61a1c879166f" />
+  </Folder>
+  <Folder Name="/13 Événements/">
+    <Project Path="DemoEvents/DemoEvents.csproj" Id="3864791e-c783-42e3-9ec6-bc99af356930" />
+  </Folder>
+  <Folder Name="/14 Généricité/">
+    <Project Path="DemoGenerique/DemoGenerique.csproj" Id="45f0da7c-394e-4a88-9868-f03313eb08db" />
+  </Folder>
+  <Folder Name="/ExerciceCarwash/">
+    <Project Path="ExerciceCarwash/ExerciceCarwash.csproj" Id="73ca1d17-c334-4ec5-ac55-0144e6ce2fe1" />
+    <Project Path="ExerciceCarwashV2/ExerciceCarwashV2.csproj" Id="2599af05-a587-4706-a5c5-24aac4a94b60" />
+  </Folder>
   <Folder Name="/07 Classes abstraites/">
     <Project Path="DemoAbstract/DemoAbstract.csproj" Id="93258594-9181-4477-beed-2d414cecb0bb" />
   </Folder>
@@ -39,9 +55,6 @@
     <Project Path="GestionBanque03/GestionBanque03.csproj" Id="04a61e0a-1fbe-44e7-9d2e-dff2c8a8e8ac" />
     <Project Path="GestionBanque04/GestionBanque04.csproj" Id="0fac0a4e-426f-4a8f-bcbc-192c1265475f" />
     <Project Path="GestionBanque05/GestionBanque05.csproj" Id="f1a99dc4-59d0-40b1-afdd-a0328d0e2b51" />
-    <Project Path="GestionBanque07/GestionBanque07.csproj" Id="6422f61f-b058-4231-b8f0-0e4298fe9a84" />
-    <Project Path="GestionBanque08/GestionBanque08.csproj" Id="e1868f4e-ee16-481b-b56d-f6655a73b9f1" />
-    <Project Path="GestionBanque6/GestionBanque06.csproj" Id="d2ced4f8-05ca-4f4a-93c3-4afffd8285f4" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path="readme.md" />
