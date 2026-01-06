@@ -16,14 +16,13 @@ public class Counter
         _threshold = threshold;
     }
 
-    public void Increment(int value)
+    public virtual void Increment(int value)
     {
         _counter += value;
-        //if (_counter >= _threshold)
         OnThresholdReached();
     }
     
-    protected virtual void OnThresholdReached ()
+    protected void OnThresholdReached ()
     {
         ThresholdReached?.Invoke(_counter, _threshold);
     }

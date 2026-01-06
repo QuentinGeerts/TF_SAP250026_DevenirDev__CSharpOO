@@ -6,9 +6,14 @@ internal class SubCounter : Counter
     {
     }
 
-    protected override void OnThresholdReached()
+    public override void Increment(int value)
     {
-        // Déclenchement par l'enfant de l'événément prévu dans le parent
-        base.OnThresholdReached();
+        _counter += value;
+        if (_counter >= _threshold)
+        {
+            OnThresholdReached();
+        }
     }
+
+    
 }
