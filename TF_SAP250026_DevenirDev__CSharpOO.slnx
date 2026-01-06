@@ -64,4 +64,5 @@
   <Folder Name="/Solution Items/">
     <File Path="readme.md" />
   </Folder>
+  <Project Path="HeroesVsMonsters/HeroesVsMonsters.csproj" Id="cfb0909a-c6a8-4535-9444-08e09e6fd799" />
 </Solution>
