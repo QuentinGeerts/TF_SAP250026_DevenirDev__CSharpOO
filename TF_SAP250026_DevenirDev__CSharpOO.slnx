@@ -18,12 +18,30 @@
   <Folder Name="/06 Heritage Polymorphisme/">
     <Project Path="DemoHeritagePolymorphisme/DemoHeritagePolymorphisme.csproj" Id="27b8c393-9f0a-4c35-9fcd-0e15f4c6ff41" />
   </Folder>
+  <Folder Name="/07 Classes abstraites/">
+    <Project Path="DemoAbstract/DemoAbstract.csproj" Id="93258594-9181-4477-beed-2d414cecb0bb" />
+  </Folder>
+  <Folder Name="/08 Classes statiques/">
+    <Project Path="DemoStatic/DemoStatic.csproj" Id="e10c8952-376d-4a73-9203-f64fc1c60df1" />
+  </Folder>
+  <Folder Name="/09 Interfaces/">
+    <Project Path="DemoInterfaces/DemoInterfaces.csproj" Id="94bad032-80d0-483d-9ad3-ca4f5eb190a7" />
+  </Folder>
+  <Folder Name="/10 ConstructeurDestructeur/">
+    <Project Path="DemoConstructeurDestructeur/DemoConstructeurDestructeur.csproj" Id="af0e2513-e6c2-48c0-8170-5330856238b3" />
+  </Folder>
+  <Folder Name="/11 TryCatch/">
+    <Project Path="DemoTryCatch/DemoTryCatch.csproj" Id="9bec0b34-1fc6-4e3b-9486-83a8cb821779" />
+  </Folder>
   <Folder Name="/GestionBanque/">
     <Project Path="GestionBanque01/GestionBanque01.csproj" />
     <Project Path="GestionBanque02/GestionBanque02.csproj" Id="d6ef95c1-e2f6-42c9-acb7-216d7602c5a0" />
     <Project Path="GestionBanque03/GestionBanque03.csproj" Id="04a61e0a-1fbe-44e7-9d2e-dff2c8a8e8ac" />
     <Project Path="GestionBanque04/GestionBanque04.csproj" Id="0fac0a4e-426f-4a8f-bcbc-192c1265475f" />
     <Project Path="GestionBanque05/GestionBanque05.csproj" Id="f1a99dc4-59d0-40b1-afdd-a0328d0e2b51" />
+    <Project Path="GestionBanque07/GestionBanque07.csproj" Id="6422f61f-b058-4231-b8f0-0e4298fe9a84" />
+    <Project Path="GestionBanque08/GestionBanque08.csproj" Id="e1868f4e-ee16-481b-b56d-f6655a73b9f1" />
+    <Project Path="GestionBanque6/GestionBanque06.csproj" Id="d2ced4f8-05ca-4f4a-93c3-4afffd8285f4" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path="readme.md" />

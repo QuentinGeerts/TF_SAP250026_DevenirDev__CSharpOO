@@ -3,15 +3,20 @@
 public class Banque
 {
     //  Attributs
-    private Dictionary<string, Courant> _comptes = new Dictionary<string, Courant>();
+    private Dictionary<string, Compte> _comptes = new Dictionary<string, Compte>();
 
 
     //  Propriétés
-    public string Nom { get; set; } = string.Empty;
+    public string Nom { get; private set; } = string.Empty;
 
+
+    public Banque(string nom)
+    {
+        Nom = nom;
+    }
 
     //  Indexeurs
-    public Courant? this[string numero]
+    public Compte? this[string numero]
     {
         get
         {
@@ -23,7 +28,7 @@ public class Banque
 
 
     //  Méthodes
-    public void Ajouter(Courant compte)
+    public void Ajouter(Compte compte)
     {
         if (compte == null) return;
         if (_comptes.ContainsKey(compte.Numero)) return;
@@ -48,9 +53,9 @@ public class Banque
     {
         string str = "";
 
-        foreach (KeyValuePair<string, Courant> kvp in _comptes)
+        foreach (KeyValuePair<string, Compte> kvp in _comptes)
         {
-            str += $"- Compte {kvp.Value.GetType().Name} n°{kvp.Key}, " +
+            str += $"- Compte n°{kvp.Key}, " +
                 $"titulaire: {kvp.Value.Titulaire.Nom} {kvp.Value.Titulaire.Prenom}, " +
                 $"solde: {kvp.Value.Solde} euro\n";
         }
@@ -61,7 +66,7 @@ public class Banque
     public double AvoirDesComptes(Personne titulaire)
     {
         double somme = 0;
-        foreach (KeyValuePair<string, Courant> kvp in _comptes)
+        foreach (KeyValuePair<string, Compte> kvp in _comptes)
         {
             if (kvp.Value.Titulaire == titulaire)
             {
