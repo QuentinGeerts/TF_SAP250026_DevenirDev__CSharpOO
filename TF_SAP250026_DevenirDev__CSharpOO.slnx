@@ -24,6 +24,9 @@
   <Folder Name="/12 Delegués/">
     <Project Path="DemoDelegues/DemoDelegues.csproj" Id="391ebf02-2d25-4d32-9611-61a1c879166f" />
   </Folder>
+  <Folder Name="/13 Événements/">
+    <Project Path="DemoEvents/DemoEvents.csproj" Id="3864791e-c783-42e3-9ec6-bc99af356930" />
+  </Folder>
   <Folder Name="/ExerciceCarwash/">
     <Project Path="ExerciceCarwash/ExerciceCarwash.csproj" Id="73ca1d17-c334-4ec5-ac55-0144e6ce2fe1" />
     <Project Path="ExerciceCarwashV2/ExerciceCarwashV2.csproj" Id="2599af05-a587-4706-a5c5-24aac4a94b60" />
